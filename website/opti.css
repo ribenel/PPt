@@ -1,0 +1,148 @@
+/*var............................*/
+:root {}
+
+/*general...........................*/
+* {
+	box-sizing: border-box;
+	list-style-type: none;
+	user-select: none;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 1rem;
+}
+*::selection {
+    background-color: rgba(59,117,114,.67);
+}
+.body {
+	overflow-y: hidden;
+	background-color: #333633;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/background.avif);
+	background-attachment: fixed;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.body::-webkit-scrollbar {
+    width: 6px;
+}
+.body::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 0;
+}
+.body::-webkit-scrollbar-track {
+    background: 0 0;
+}
+.a {
+	text-decoration: none;
+	color: #fff;
+}
+.boxDefault {
+    width: 100%;
+    padding: 8px;
+    background-color: rgba(20,31,30,.5);
+    border-style: solid;
+    border-color: rgba(0,0,0,.29);
+    border-width: 3px;
+    border-radius: 11px;
+    box-shadow: 0 4px 8px 2px rgba(0,0,0,.33);
+}
+/*header.....................................*/
+.header {}
+.nav {}
+.divNavCont {
+    position: absolute;
+    top: 12px;
+    width: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+    padding: 6px;
+}
+.iNav {}
+.inputNav {
+    background: 0 0;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*aside principal........................*/
+.mainAside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 12px;
+}
+.imgMainAside {
+	filter: drop-shadow(0 4px 4px rgba(0,0,0,.33));
+	margin-bottom: 9px;
+}
+.navMainAside {}
+.ulNavAside {}
+.liNavAside {}
+.divContServers {}
+.articleServers {}
+.divNavAside {}
+.iNavAside {}
+
+/*article..............................*/
+.article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*seccion principal de article.......*/
+.mainSection {}
+.divContenIntroGames {}
+.iIconKebab {}
+.spanKebab
+.divContGamesList {}
+.ulGameList {}
+.liGames {}
+
+/*seccion secundaria de article....*/
+.secondarySection {}
+.divContenDownload {}
+.iIconDownload {}
+.spanDownload {}
+.divContOptionDownload {}
+
+.DMCA {
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 0 0 16px #000;
+    opacity: .5;
+}
+
+/*aside secundario..................*/
+.secondaryAside {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 12px;
+}
+.aContenImgSpam {}
+.imgSpam {}
+.divContChat {}
+.buttonSpam {}
+.iIconSpam {}
+.buttonChat {}
+.iIconChat {}

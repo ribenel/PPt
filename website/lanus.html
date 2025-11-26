@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Practica aplicada</title>
+	<link rel="stylesheet" type="text/css" href="lanus.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="body">
+	<header class="header">
+		<div class="divContenIntro">
+			<p class="pIntro">Ejercicios de CSS y HTML: 4</p>
+		</div>
+		<div class="divContenButton">
+			<button class="buttonIntro"><a href="index.html" class="aButton">1</a></button>
+			<button class="buttonIntro"><a href="lanusE.html" class="aButton">5</a></button>
+		</div>
+	</header>
+	<article class="articleForm">
+		<div class="contenForm">
+			<div class="contenPartForm">
+				<input type="text" name="Nombre" class="inputForm" placeholder="Nombre completo" required min="3" max="50" spellcheck>
+			</div>
+			<div class="contenPartForm">
+				<input type="tel" name="Telefono" class="inputForm" placeholder="Telefono" required>
+			</div>
+			<div class="contenPartForm">
+				<input type="email" name="Gmail" class="inputForm" placeholder="Gmail" required>
+			</div>
+			<div class="contenPartForm">
+				<input type="password" name="Contraseña" class="inputForm" placeholder="Contraseña" required>
+			</div>
+			<div class="contenPartForm">
+				<input type="date" name="Fecha" class="inputForm" placeholder="Fecha" required>
+			</div>
+			<div class="contenPartForm divContenListForm">
+				<form action="index.html" class="formContenListForm">
+  					<select name="people" id="people" class="selectListForm">
+      					<option value="Man" class="optionListForm">Hombre</option>
+      					<option value="Woman" class="optionListForm">Mujer</option>
+   						<option value="Butterfly" class="optionListForm">Unicornio 🦄</option>
+  					</select>
+					<p class="pForm pListForm">(opcional)</p>
+				</form>
+			</div>
+			<div class="contenPartForm contenInputCheckbox">
+				<p class="pForm pCheckbox">Acepto las politicas de privacidad y proteccion de datos</p><!---
+				<input type="checkbox" name="Casilla" class="inputFormCheckbox" checked required>
+				<label for="mi-checkbox"></label> -->
+  				<input type="checkbox" class="btn-check inputFormCheckbox" id="btncheck1" autocomplete="off">
+  				<label class="btn btn-outline-secondary labelCheckbox" for="btncheck1"></label>
+			</div>
+			<div class="contenPartForm contenInputSubmit">
+				<input type="submit" name="Enviar" class="inputFormSubmit">
+			</div>
+		</div>
+	</article>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
