@@ -1,0 +1,146 @@
+/*general...........................*/
+* {
+	box-sizing: border-box;
+	font-family: arial;
+	font-weight: 400;
+}
+.body {
+	background: #000;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	background-image: url(https://images.unsplash.com/photo-1661705969607-cde73828023d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9uZG8lMjBkZSUyMHBhbnRhbGxhJTIwZGUlMjBsYSUyMHRpZXJyYXxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000);
+	margin: 0;
+}
+.body {
+	margin: 0;
+}
+/*header.............................*/
+.header {
+	display: flex;
+	margin: 1rem 2rem;
+	justify-content: space-between;
+	align-items: center;
+}
+.pIntro {
+	color: #ffffff55;
+	font-size: 1rem;
+	font-family: arial;
+	display: inline-block;
+}
+.divContenIntro {
+	display: inline-block;
+}
+.buttonIntro {
+	background: #fff4;
+	border: 1px solid #fff0;
+	border-radius: 15px 0px 15px 15px;
+	padding: 6px 8px;
+	font-size: 0.9rem;
+	margin: 1rem;
+}
+.buttonIntro {
+	background: #fff4;
+	border: 1px inset #fff0;
+	border-radius: 15px 15px 15px 15px;
+	padding: 6px 8px;
+	font-size: 0.9rem;
+	margin: 1rem;
+	padding: 0;
+}
+.buttonIntro:hover {
+	background: #fff7;
+	border: 1px inset #fff0;
+}
+.aButton {
+	text-decoration: none;
+	color: #fff;
+	transition: 3s;
+	padding: 2rem;
+}
+.aButton:hover {
+	color: #fff;
+}
+/*contenido...................................*/
+.article {
+	padding: 1rem 2rem;
+}
+.h4Section {
+	font-size: 1em;
+	display: inline-block;
+}
+.pSection {
+	font-size: 0.7em;
+}
+.ulSection {
+}
+.liSection {
+	font-size: 0.7em;
+	list-style-type: circle;
+}
+
+
+/*seccion uno...............................*/
+.section {
+}
+.divContenMainSection {
+	background: #fff2;
+	border-radius: 20px;
+	padding: 1rem;
+	margin: 1rem;
+}
+.h4MainSection {
+	font-size: 2em;
+	display: inline-block;
+	margin: 0;
+}
+.pMainSection {
+	font-size: 1.5em;
+}
+/*seccion dos..............................*/
+.sharedSection {
+	display: flex;
+	flex-direction: row;
+	height: 40em;
+}
+.divContenSecondarySection {
+	background: #0005;
+	padding: 1rem;
+	margin: 1rem;
+	overflow-y: scroll;
+	border-radius: 20px;
+}
+.divContenSecondarySection::-webkit-scrollbar {
+	background: #0003;
+	border-radius: 0px 20px 20px 0px;
+	width: 10px;
+}
+.divContenSecondarySection::-webkit-scrollbar-thumb {
+	background: #fff2;
+	border-radius: 20px;
+}
+.divContenSecondarySection::-webkit-scrollbar-thumb:hover {
+	background: #fff5;
+}
+/*seccion tres............................*/
+.divContenMainTertiariSection {
+	background: #0005;
+	padding: 1rem;
+	margin: 1rem;
+	overflow-y: scroll;
+	border-radius: 20px;
+}
+.divContenMainTertiariSection::-webkit-scrollbar {
+	background: #0003;
+	border-radius: 0px 20px 20px 0px;
+	width: 10px;
+}
+.divContenMainTertiariSection::-webkit-scrollbar-thumb {
+	background: #fff2;
+	border-radius: 20px;
+}
+.divContenMainTertiariSection::-webkit-scrollbar-thumb:hover {
+	background: #fff5;
+}

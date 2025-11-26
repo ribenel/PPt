@@ -1,0 +1,76 @@
+/*general...........................*/
+.body {
+	background: #000;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(https://images.unsplash.com/photo-1661705969607-cde73828023d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9uZG8lMjBkZSUyMHBhbnRhbGxhJTIwZGUlMjBsYSUyMHRpZXJyYXxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000);
+	background-attachment: fixed;
+	color: #fff;
+}
+/*.contenGral {}*/
+/*header.............................*/
+.header {
+	display: flex;
+	margin: 1rem 2rem;
+	justify-content: space-between;
+	align-items: center;
+}
+.pIntro {
+	color: #ffffff55;
+	font-size: 1rem;
+	font-family: arial;
+	display: inline-block;
+}
+.divContenIntro {
+	display: inline-block;
+}
+.buttonIntro {
+	background: #fff4;
+	border: 1px inset #fff0;
+	border-radius: 15px 15px 15px 15px;
+	padding: 6px 8px;
+	font-size: 0.9rem;
+	margin: 1rem;
+	padding: 0;
+}
+.buttonIntro:hover {
+	background: #fff7;
+	border: 1px inset #fff0;
+}
+.aButton {
+	text-decoration: none;
+	color: #fff;
+	transition: 3s;
+	padding: 2rem;
+}
+.aButton:hover {
+	color: #fff;
+}
+/*articulo de texto..............*/
+.article {
+	padding: 2em;
+}
+.sectionMain {
+	background: #0007;
+	border: 1px solid #fff3;
+	border-radius: 20px;
+	padding: 1em;
+}
+.divContenText {
+	font-family: arial;
+	margin-bottom: 2em;
+}
+/*texto.............*/
+.h4TitleText {
+	font-size: 1rem;
+	color: #fff8;
+	font-family: arial;
+}
+.pText {
+	font-size: 0.9rem;
+}
+.ulText {}
+.liText {
+	list-style-type: circle;
+}
